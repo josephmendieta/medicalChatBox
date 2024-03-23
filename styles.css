@@ -1,0 +1,73 @@
+/* Estilos para el contenedor del chat */
+.chat-container {
+    max-width: 400px; /* Ancho máximo del contenedor del chat */
+    margin: 20px auto; /* Margen superior e inferior automático para centrar el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el desbordamiento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para los mensajes */
+.message {
+    padding: 10px 15px; /* Espaciado interno */
+    border-bottom: 1px solid #eee; /* Borde inferior entre mensajes */
+    
+    background-color: #f9f9f9; /* Color de fondo del mensaje */
+}
+
+/* Estilos para los mensajes del usuario */
+.user-message {
+    background-color: #4CAF50; /* Color de fondo del mensaje del usuario */
+    color: white; /* Color del texto */
+    align-self: flex-end; /* Alinea el mensaje del usuario a la derecha */
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    border-left: 120px solid #eee;  /* Eliminamos esta línea*/
+}
+
+
+/* Estilos para los mensajes del chatbot */
+.chatbot-message {
+    background-color: #3498db; /* Color de fondo del mensaje del chatbot */
+    color: white; /* Color del texto */
+    border-right: 120px solid #eee; /* Borde inferior entre mensajes */    
+}
+
+/* Estilos para los márgenes de los mensajes */
+.message {
+    margin: 5px; /* Márgenes entre mensajes */
+}
+
+/* Estilos para el contenedor del formulario de entrada */
+.input-container {
+    padding: 10px;
+    background-color: #f2f2f2; /* Color de fondo */
+    border-top: 1px solid #eee; /* Borde superior */
+}
+
+/* Estilos para el área de texto de entrada */
+.input-text {
+    width: 96%; /* Ancho fijo del área de texto */
+    padding: 8px; /* Espaciado interno */
+    border: none; /* Quita los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    resize: none; /* Evita que el textarea se pueda redimensionar */
+}
+
+
+/* Estilos para el botón de enviar */
+.send-button {
+    width: 80px; /* Ancho del botón */
+    padding: 8px; /* Espaciado interno */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quita los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilos para el botón de enviar al pasar el ratón por encima */
+.send-button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+}
